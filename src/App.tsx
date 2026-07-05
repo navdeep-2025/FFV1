@@ -156,7 +156,7 @@ export default function App() {
           <div className="flex items-center gap-2">
             {!logoError ? (
               <img
-                src="logo.png"
+                src="public/logo.png"
                 alt="FinanceFlow"
                 className="h-8 w-8 object-contain"
                 referrerPolicy="no-referrer"
