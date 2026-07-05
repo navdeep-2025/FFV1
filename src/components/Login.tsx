@@ -46,7 +46,7 @@ export default function Login({ onLoginSuccess }: LoginProps) {
           <div className="mx-auto flex items-center justify-center mb-4">
             {!logoError ? (
               <img
-                src="/logo.png"
+                src="logo.png"
                 alt="FinanceFlow Logo"
                 className="h-16 w-16 object-contain"
                 referrerPolicy="no-referrer"
