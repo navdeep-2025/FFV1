@@ -92,7 +92,7 @@ export default function Sidebar({
           <div className="flex items-center gap-2">
             {!logoError ? (
               <img
-                src="public/logo.png"
+                src="./logo.png"
                 alt="FinanceFlow"
                 className="h-8 w-8 object-contain"
                 referrerPolicy="no-referrer"
