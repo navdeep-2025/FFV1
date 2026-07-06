@@ -135,11 +135,6 @@ export default function Login({ onLoginSuccess }: LoginProps) {
             </button>
           </div>
         </form>
-
-        <div className="pt-4 border-t border-gray-100 text-center text-xs text-gray-400">
-          <p>Demo Admin: <span className="font-mono font-medium text-gray-500 select-all">admin@ems.com</span> / <span className="font-mono font-medium text-gray-500 select-all">admin123</span></p>
-          <p className="mt-1">Demo User: <span className="font-mono font-medium text-gray-500 select-all">user1@ems.com</span> / <span className="font-mono font-medium text-gray-500 select-all">user123</span></p>
-        </div>
       </div>
     </div>
   );
